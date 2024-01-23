@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="index as the main homepage">
-      <change beforePath="$PROJECT_DIR$/ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705969208043</updated>
       <workItem from="1705969236784" duration="14372000" />
-      <workItem from="1706024043724" duration="4180000" />
+      <workItem from="1706024043724" duration="5177000" />
     </task>
     <task id="LOCAL-00001" summary="multivendor ecommerce">
       <option name="closed" value="true" />
