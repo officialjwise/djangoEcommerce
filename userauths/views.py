@@ -3,8 +3,7 @@ from userauths.forms import UserRegisterForm
 from django.contrib.auth import login, authenticate
 from django.contrib import messages
 from django.conf import settings
-
-User = settings.AUTH_USER_MODEL
+from userauths.models import User
 
 
 def RegisterView(request):
@@ -30,6 +29,7 @@ def RegisterView(request):
 def loginView(request):
     # Checking if the user is already authenticated
     if request.user.is_authenticated:
+        messages.warning(request, f"Hey, You have already logged in!")
         return redirect("store:index")
 
     if request.method == "POST":
@@ -60,3 +60,4 @@ def loginView(request):
 
     context = {}
     return render(request, "userauths/login.html", context)
+
