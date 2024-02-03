@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="created user authentication" />
+    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="Added form fields from the Django UserCreationForm.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/userauths/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userauths/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userauths/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/userauths/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userauths/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userauths/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userauths/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userauths/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +132,10 @@
       <workItem from="1706115588515" duration="601000" />
       <workItem from="1706201001241" duration="27000" />
       <workItem from="1706265541932" duration="14415000" />
+      <workItem from="1706546856645" duration="1657000" />
+      <workItem from="1706632465922" duration="645000" />
+      <workItem from="1706793896680" duration="3266000" />
+      <workItem from="1706948540455" duration="6888000" />
     </task>
     <task id="LOCAL-00001" summary="multivendor ecommerce">
       <option name="closed" value="true" />
@@ -214,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706391644738</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Jazzmin admin is installed">
+      <option name="closed" value="true" />
+      <created>1706391856659</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706391856659</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added form fields from the Django UserCreationForm.">
+      <option name="closed" value="true" />
+      <created>1706981307416</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706981307417</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +269,8 @@
     <MESSAGE value="fixed page issues in the homepage" />
     <MESSAGE value="created user authentication" />
     <MESSAGE value="Jazzmin admin is installed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jazzmin admin is installed" />
+    <MESSAGE value="Added form fields from the Django UserCreationForm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added form fields from the Django UserCreationForm." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ecommerce$urls.coverage" NAME="urls Coverage Results" MODIFIED="1706391456138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userauths" />
