@@ -1,9 +1,9 @@
 from django.shortcuts import render, redirect
 from userauths.forms import UserRegisterForm
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, authenticate, logout
 from django.contrib import messages
-from django.conf import settings
 from userauths.models import User
+
 
 
 def RegisterView(request):
@@ -44,7 +44,8 @@ def loginView(request):
             else:
                 user = User.objects.get(username=email_or_username)
         except User.DoesNotExist:
-            messages.warning(request, f"No user found with {email_or_username}. Please check your credentials or register.")
+            messages.warning(request,
+                             f"No user found with {email_or_username}. Please check your credentials or register.")
             return redirect("userauths:register")
 
         # Authenticate using either email or username, not both
@@ -61,3 +62,7 @@ def loginView(request):
     context = {}
     return render(request, "userauths/login.html", context)
 
+def logoutView(request):
+    logout(request)
+    messages.success(request, "Logged out!")
+    return redirect("userauths:login")
