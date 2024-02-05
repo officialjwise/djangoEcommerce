@@ -5,7 +5,6 @@ from django.contrib import messages
 from userauths.models import User
 
 
-
 def RegisterView(request):
     if request.method == "POST":
         form = UserRegisterForm(request.POST or None)
@@ -41,6 +40,7 @@ def loginView(request):
             # Check if email_or_username contains "@" symbol
             if '@' in email_or_username:
                 user = User.objects.get(email=email_or_username)
+
             else:
                 user = User.objects.get(username=email_or_username)
         except User.DoesNotExist:
@@ -61,6 +61,7 @@ def loginView(request):
 
     context = {}
     return render(request, "userauths/login.html", context)
+
 
 def logoutView(request):
     logout(request)

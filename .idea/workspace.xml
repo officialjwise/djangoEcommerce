@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="Just a workspace.xml scripts are contained in this file.">
-      <change afterPath="$PROJECT_DIR$/userauths/migrations/0004_user_last_session_alter_user_date_joined_and_more.py" afterDir="false" />
+    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="First name and Last Name fields added.">
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/userauths/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/userauths/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userauths/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/userauths/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userauths/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/userauths/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userauths/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/userauths/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userauths/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userauths/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,25 +63,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Django Server.ecommerce.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.ecommerce.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.postfix.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ecommerce" type="Python.DjangoServer" factoryName="Django server">
       <module name="ecommerce" />
@@ -135,7 +133,7 @@
       <workItem from="1706546856645" duration="1657000" />
       <workItem from="1706632465922" duration="645000" />
       <workItem from="1706793896680" duration="3266000" />
-      <workItem from="1706948540455" duration="10584000" />
+      <workItem from="1706948540455" duration="28560000" />
     </task>
     <task id="LOCAL-00001" summary="multivendor ecommerce">
       <option name="closed" value="true" />
@@ -281,7 +279,87 @@
       <option name="project" value="LOCAL" />
       <updated>1706981755034</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="two fields added in the models.py">
+      <option name="closed" value="true" />
+      <created>1706985056898</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706985056898</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Have been modified to allow both username and email for login authentication. Also determines if the entered data is username or email in that specific-context by using the @ to determine an email and throws the error message based on that.">
+      <option name="closed" value="true" />
+      <created>1706989591759</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706989591759</updated>
+    </task>
+    <task id="LOCAL-00021" summary="login form created">
+      <option name="closed" value="true" />
+      <created>1706989716503</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706989716503</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated with more functionalities and validations">
+      <option name="closed" value="true" />
+      <created>1706991069434</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706991069434</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added few urls in the pages and the sign-out button is then changed to sign in if it's authenticated.">
+      <option name="closed" value="true" />
+      <created>1706992373037</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706992373037</updated>
+    </task>
+    <task id="LOCAL-00024" summary="imported User from the userauths models instead of settings.AUTH_USER_MODEL">
+      <option name="closed" value="true" />
+      <created>1706992480088</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706992480088</updated>
+    </task>
+    <task id="LOCAL-00025" summary="can now login and register successfully">
+      <option name="closed" value="true" />
+      <created>1706992519967</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706992519967</updated>
+    </task>
+    <task id="LOCAL-00026" summary="logoutView is created and now user authentication is completely done!">
+      <option name="closed" value="true" />
+      <created>1706992583539</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706992583539</updated>
+    </task>
+    <task id="LOCAL-00027" summary="required urls passed">
+      <option name="closed" value="true" />
+      <created>1706992609812</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1706992609812</updated>
+    </task>
+    <task id="LOCAL-00028" summary="First name and Last Name fields added.">
+      <option name="closed" value="true" />
+      <created>1706992654366</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706992654367</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +393,17 @@
     <MESSAGE value="returns the user to the homepage" />
     <MESSAGE value="Register View with form validations | Saves the account created to the admin panel and returns to the store:index page." />
     <MESSAGE value="Just a workspace.xml scripts are contained in this file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Just a workspace.xml scripts are contained in this file." />
+    <MESSAGE value="two fields added in the models.py" />
+    <MESSAGE value="Have been modified to allow both username and email for login authentication. Also determines if the entered data is username or email in that specific-context by using the @ to determine an email and throws the error message based on that." />
+    <MESSAGE value="login form created" />
+    <MESSAGE value="Updated with more functionalities and validations" />
+    <MESSAGE value="added few urls in the pages and the sign-out button is then changed to sign in if it's authenticated." />
+    <MESSAGE value="imported User from the userauths models instead of settings.AUTH_USER_MODEL" />
+    <MESSAGE value="can now login and register successfully" />
+    <MESSAGE value="logoutView is created and now user authentication is completely done!" />
+    <MESSAGE value="required urls passed" />
+    <MESSAGE value="First name and Last Name fields added." />
+    <option name="LAST_COMMIT_MESSAGE" value="First name and Last Name fields added." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ecommerce$urls.coverage" NAME="urls Coverage Results" MODIFIED="1706391456138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/userauths" />
