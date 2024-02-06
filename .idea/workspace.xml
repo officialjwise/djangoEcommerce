@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="fixed some bugs in codes">
-      <change afterPath="$PROJECT_DIR$/media/category/donaldglovernetworth-mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/migrations/0001_initial.py" afterDir="false" />
+    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="-Removed product tags&#10;- images uploaded to category">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +135,7 @@
       <workItem from="1706546856645" duration="1657000" />
       <workItem from="1706632465922" duration="645000" />
       <workItem from="1706793896680" duration="3266000" />
-      <workItem from="1706948540455" duration="54973000" />
+      <workItem from="1706948540455" duration="58507000" />
     </task>
     <task id="LOCAL-00001" summary="multivendor ecommerce">
       <option name="closed" value="true" />
@@ -427,7 +425,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707180585123</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="- All models have been migrated successfully. &#10;- Removed tags from the add products page(will come to it later) &#10;- All errors fixed!">
+      <option name="closed" value="true" />
+      <created>1707182443984</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1707182443984</updated>
+    </task>
+    <task id="LOCAL-00038" summary="-Removed product tags&#10;- images uploaded to category">
+      <option name="closed" value="true" />
+      <created>1707182538576</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1707182538576</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,8 +466,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixed page issues in the homepage" />
-    <MESSAGE value="created user authentication" />
     <MESSAGE value="Jazzmin admin is installed" />
     <MESSAGE value="Added form fields from the Django UserCreationForm." />
     <MESSAGE value="User registration form with custom form fields" />
@@ -477,7 +489,9 @@
     <MESSAGE value="updated" />
     <MESSAGE value="Configured Django admin panel for the e-commerce store models. Registered models in admin.py with custom admin classes to enhance visualization and management. Added inlines for ProductImages within the Product admin for streamlined image management. Corrected 'list_display' attribute in CartOrderItemsAdmin to resolve 'admin.E108' error. The admin.py file is now optimized for effective administration of the e-commerce store." />
     <MESSAGE value="fixed some bugs in codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some bugs in codes" />
+    <MESSAGE value="- All models have been migrated successfully. &#10;- Removed tags from the add products page(will come to it later) &#10;- All errors fixed!" />
+    <MESSAGE value="-Removed product tags&#10;- images uploaded to category" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Removed product tags&#10;- images uploaded to category" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
