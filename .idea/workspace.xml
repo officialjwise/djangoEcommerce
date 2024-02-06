@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="- Fetching data dynamically to the homapage from the database">
+    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="- Added product listing to the homepage dynamically from the database">
+      <change afterPath="$PROJECT_DIR$/templates/store/category-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,7 @@
       <workItem from="1706546856645" duration="1657000" />
       <workItem from="1706632465922" duration="645000" />
       <workItem from="1706793896680" duration="3266000" />
-      <workItem from="1706948540455" duration="67233000" />
+      <workItem from="1706948540455" duration="73137000" />
     </task>
     <task id="LOCAL-00001" summary="multivendor ecommerce">
       <option name="closed" value="true" />
@@ -473,7 +472,31 @@
       <option name="project" value="LOCAL" />
       <updated>1707188182004</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="- Added discount tags to the popular products &#10;- Minor errors fixed">
+      <option name="closed" value="true" />
+      <created>1707221051536</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1707221051536</updated>
+    </task>
+    <task id="LOCAL-00044" summary="changes made">
+      <option name="closed" value="true" />
+      <created>1707221168601</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1707221168602</updated>
+    </task>
+    <task id="LOCAL-00045" summary="- Added product listing to the homepage dynamically from the database">
+      <option name="closed" value="true" />
+      <created>1707225343294</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1707225343294</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,9 +521,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added the register page to the urls" />
-    <MESSAGE value="returns the user to the homepage" />
-    <MESSAGE value="Register View with form validations | Saves the account created to the admin panel and returns to the store:index page." />
     <MESSAGE value="Just a workspace.xml scripts are contained in this file." />
     <MESSAGE value="two fields added in the models.py" />
     <MESSAGE value="Have been modified to allow both username and email for login authentication. Also determines if the entered data is username or email in that specific-context by using the @ to determine an email and throws the error message based on that." />
@@ -523,7 +543,10 @@
     <MESSAGE value="Added vendor field to the product" />
     <MESSAGE value="Products filtered by its status and - only shows when featured is set to True&#10;- Order by -id: latest posts first" />
     <MESSAGE value="- Fetching data dynamically to the homapage from the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Fetching data dynamically to the homapage from the database" />
+    <MESSAGE value="- Added discount tags to the popular products &#10;- Minor errors fixed" />
+    <MESSAGE value="changes made" />
+    <MESSAGE value="- Added product listing to the homepage dynamically from the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added product listing to the homepage dynamically from the database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
