@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="updated">
+    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="fixed some bugs in codes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +134,7 @@
       <workItem from="1706546856645" duration="1657000" />
       <workItem from="1706632465922" duration="645000" />
       <workItem from="1706793896680" duration="3266000" />
-      <workItem from="1706948540455" duration="52871000" />
+      <workItem from="1706948540455" duration="53225000" />
     </task>
     <task id="LOCAL-00001" summary="multivendor ecommerce">
       <option name="closed" value="true" />
@@ -401,7 +400,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707171586468</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Configured Django admin panel for the e-commerce store models. Registered models in admin.py with custom admin classes to enhance visualization and management. Added inlines for ProductImages within the Product admin for streamlined image management. Corrected 'list_display' attribute in CartOrderItemsAdmin to resolve 'admin.E108' error. The admin.py file is now optimized for effective administration of the e-commerce store.">
+      <option name="closed" value="true" />
+      <created>1707180382596</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707180382596</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fixed some bugs in codes">
+      <option name="closed" value="true" />
+      <created>1707180426403</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1707180426403</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,8 +441,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Statics and media added" />
-    <MESSAGE value="index as the main homepage" />
     <MESSAGE value="fixed page issues in the homepage" />
     <MESSAGE value="created user authentication" />
     <MESSAGE value="Jazzmin admin is installed" />
@@ -451,7 +464,9 @@
     <MESSAGE value="Files updated" />
     <MESSAGE value="Create models for product management&#10;&#10;- Add Category, Tags, Vendor, Product, ProductImages models.&#10;- Implement CartOrder, CartOrderItems, ProductReview, Wishlist, and Address models.&#10;- Define fields, relationships, and methods in each model for comprehensive product management.&#10;&#10;Add Product model with updated price field&#10;&#10;- Update the price field in the Product model to use max_digits and decimal_places for clarity.&#10;- Fix image upload issue by installing Pillow library." />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="Configured Django admin panel for the e-commerce store models. Registered models in admin.py with custom admin classes to enhance visualization and management. Added inlines for ProductImages within the Product admin for streamlined image management. Corrected 'list_display' attribute in CartOrderItemsAdmin to resolve 'admin.E108' error. The admin.py file is now optimized for effective administration of the e-commerce store." />
+    <MESSAGE value="fixed some bugs in codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some bugs in codes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
