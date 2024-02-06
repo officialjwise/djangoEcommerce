@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="Files updated">
+    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +135,7 @@
       <workItem from="1706546856645" duration="1657000" />
       <workItem from="1706632465922" duration="645000" />
       <workItem from="1706793896680" duration="3266000" />
-      <workItem from="1706948540455" duration="49595000" />
+      <workItem from="1706948540455" duration="52871000" />
     </task>
     <task id="LOCAL-00001" summary="multivendor ecommerce">
       <option name="closed" value="true" />
@@ -384,7 +385,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707126831169</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Create models for product management&#10;&#10;- Add Category, Tags, Vendor, Product, ProductImages models.&#10;- Implement CartOrder, CartOrderItems, ProductReview, Wishlist, and Address models.&#10;- Define fields, relationships, and methods in each model for comprehensive product management.&#10;&#10;Add Product model with updated price field&#10;&#10;- Update the price field in the Product model to use max_digits and decimal_places for clarity.&#10;- Fix image upload issue by installing Pillow library.">
+      <option name="closed" value="true" />
+      <created>1707171499983</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707171499983</updated>
+    </task>
+    <task id="LOCAL-00033" summary="updated">
+      <option name="closed" value="true" />
+      <created>1707171586468</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707171586468</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,7 +412,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -403,8 +426,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="multivendor ecommerce initial" />
-    <MESSAGE value="Added the store app to the installed apps" />
     <MESSAGE value="Statics and media added" />
     <MESSAGE value="index as the main homepage" />
     <MESSAGE value="fixed page issues in the homepage" />
@@ -428,7 +449,9 @@
     <MESSAGE value="First name and Last Name fields added." />
     <MESSAGE value="Added Jquery to close all the alert messages in 3s" />
     <MESSAGE value="Files updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Files updated" />
+    <MESSAGE value="Create models for product management&#10;&#10;- Add Category, Tags, Vendor, Product, ProductImages models.&#10;- Implement CartOrder, CartOrderItems, ProductReview, Wishlist, and Address models.&#10;- Define fields, relationships, and methods in each model for comprehensive product management.&#10;&#10;Add Product model with updated price field&#10;&#10;- Update the price field in the Product model to use max_digits and decimal_places for clarity.&#10;- Fix image upload issue by installing Pillow library." />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
