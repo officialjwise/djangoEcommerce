@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="Added vendor field to the product">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+    <list default="true" id="73660250-2453-432d-a0eb-cdcfedee3fa3" name="Changes" comment="- Fetching data dynamically to the homapage from the database">
+      <change afterPath="$PROJECT_DIR$/media/product-images/product-6-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/product-images/product-6-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/user_1/product-6-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/user_1/vendor-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/store/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +137,7 @@
       <workItem from="1706546856645" duration="1657000" />
       <workItem from="1706632465922" duration="645000" />
       <workItem from="1706793896680" duration="3266000" />
-      <workItem from="1706948540455" duration="60536000" />
+      <workItem from="1706948540455" duration="60888000" />
     </task>
     <task id="LOCAL-00001" summary="multivendor ecommerce">
       <option name="closed" value="true" />
@@ -449,7 +451,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707186093127</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Products filtered by its status and - only shows when featured is set to True&#10;- Order by -id: latest posts first">
+      <option name="closed" value="true" />
+      <created>1707188075692</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1707188075692</updated>
+    </task>
+    <task id="LOCAL-00041" summary="- Fetching data dynamically to the homapage from the database">
+      <option name="closed" value="true" />
+      <created>1707188135843</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1707188135843</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,8 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added form fields from the Django UserCreationForm." />
-    <MESSAGE value="User registration form with custom form fields" />
     <MESSAGE value="Added the register page to the urls" />
     <MESSAGE value="returns the user to the homepage" />
     <MESSAGE value="Register View with form validations | Saves the account created to the admin panel and returns to the store:index page." />
@@ -499,7 +515,9 @@
     <MESSAGE value="- All models have been migrated successfully. &#10;- Removed tags from the add products page(will come to it later) &#10;- All errors fixed!" />
     <MESSAGE value="-Removed product tags&#10;- images uploaded to category" />
     <MESSAGE value="Added vendor field to the product" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added vendor field to the product" />
+    <MESSAGE value="Products filtered by its status and - only shows when featured is set to True&#10;- Order by -id: latest posts first" />
+    <MESSAGE value="- Fetching data dynamically to the homapage from the database" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Fetching data dynamically to the homapage from the database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
