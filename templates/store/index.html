@@ -181,7 +181,7 @@
                     <a href="#"><img src="{% static 'assets/imgs/theme/icons/icon-pinterest-white.svg' %}" alt="" /></a>
                     <a href="#"><img src="{% static 'assets/imgs/theme/icons/icon-youtube-white.svg' %}" alt="" /></a>
                 </div>
-                <div class="site-copyright">Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.</div>
+                <div class="site-copyright">Copyright 2024 © Carisca. All rights reserved.</div>
             </div>
         </div>
     </div>
@@ -271,7 +271,9 @@
                                                     <a aria-label="Quick view" class="action-btn" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fi-rs-eye"></i></a>
                                                 </div>
                                                 <div class="product-badges product-badges-position product-badges-mrg">
-                                                    <span class="hot">Hot</span>
+                                                    <div class="product-badges product-badges-position product-badges-mrg">
+                                                        <span class="hot">-{{ p.get_discount_percentage|floatformat:"0" }}%</span>
+                                                </div>
                                                 </div>
                                             </div>
                                             <div class="product-content-wrap">
@@ -323,8 +325,9 @@
                                                     <a aria-label="Quick view" class="action-btn" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fi-rs-eye"></i></a>
                                                 </div>
                                                 <div class="product-badges product-badges-position product-badges-mrg">
-                                                    <span class="hot">%{{ p.get_discount_percentage | floatformat }}%</span>
+                                                    <span class="hot">Hot</span>
                                                 </div>
+
                                             </div>
                                             <div class="product-content-wrap">
                                                 <div class="product-category">
