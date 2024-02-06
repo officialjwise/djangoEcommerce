@@ -2,7 +2,7 @@ from django.contrib import admin
 
 from store.models import (
     Category,
-    Tags,
+    # Tags,
     Vendor,
     Product,
     ProductImages,
@@ -54,7 +54,7 @@ class AddressAdmin(admin.ModelAdmin):
 # Registering the models with custom admin classes
 
 admin.site.register(Category, CategoryAdmin)
-admin.site.register(Tags)
+# admin.site.register(Tags)
 admin.site.register(Vendor, VendorAdmin)
 admin.site.register(Product, ProductAdmin)
 admin.site.register(CartOrder, CartOrderAdmin)
