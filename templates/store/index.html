@@ -286,7 +286,7 @@
                                                     <span class="font-small ml-5 text-muted">{{ p.rating }}</span>
                                                 </div>
                                                 <div>
-                                                    <span class="font-small text-muted">By <a href="vendor-details-1.html">{{ p.user }}</a></span>
+                                                    <span class="font-small text-muted">By <a href="vendor-details-1.html">{{ p.vendor.title }}</a></span>
                                                 </div>
                                                 <div class="product-card-bottom">
                                                     <div class="product-price">
@@ -323,7 +323,7 @@
                                                     <a aria-label="Quick view" class="action-btn" data-bs-toggle="modal" data-bs-target="#quickViewModal"><i class="fi-rs-eye"></i></a>
                                                 </div>
                                                 <div class="product-badges product-badges-position product-badges-mrg">
-                                                    <span class="hot">Hot</span>
+                                                    <span class="hot">%{{ p.get_discount_percentage | floatformat }}%</span>
                                                 </div>
                                             </div>
                                             <div class="product-content-wrap">
